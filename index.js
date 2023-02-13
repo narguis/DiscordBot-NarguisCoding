@@ -25,8 +25,6 @@ for (const file of commandFiles){
     }
 }
 
-console.log(client.commands)
-
 // Login do bot
 client.once(Events.ClientReady, c => {
 	console.log(`Certo! Estou logado como ${c.user.tag}`);
